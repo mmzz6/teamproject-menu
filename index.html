@@ -1,0 +1,1137 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>스쿱스</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="./css/slick.css">
+
+    <!-- 파비콘 -->
+    <link rel="icon" href="./img/favicon.png">
+
+    <!-- 폰트 -->
+    <link rel="stylesheet" as="style" crossorigin
+        href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css" />
+    <link href="https://fonts.cdnfonts.com/css/keystone-2" rel="stylesheet" />
+</head>
+
+<body>
+    <div id="wrap">
+
+        <div id="blink" class="scr1"></div>
+
+        <!-- 플로팅 메뉴 -->
+        <div class="ham">
+            <input type="checkbox" id="menuicon">
+            <label for="menuicon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <div class="sidebar">
+                <ul id="menu">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../00_Menu_KDK/index.html">Menu</a></li>
+                    <li><a href="../00_Notice_PJH/sub_member.html">Notice</a></li>
+                    <li><a href="../00_Story_KYE/story.html">Story</a></li>
+                    <li><a href="../00_Member_HMS/member.html">Member</a></li>
+                </ul>
+            </div>
+        </div><!--.ham-->
+        <div class="nav_item">
+            <ul>
+                <li class="up"><a href="javascript:;"><i class="fa-solid fa-chevron-up"></i></a></li>
+                <li class="down"><a href="javascript:;"><i class="fa-solid fa-chevron-down"></i></a></li>
+            </ul>
+        </div><!--.nav_item-->
+
+        <!-- fixnav, 픽스네비 -->
+        <div class="fixnav">
+            <div class="fix_logo"><a href="../index.html">Scoops</a></div>
+            <ul class="clearfix">
+                <li><a href="../00_Menu_KDK/index.html">Menu</a></li>
+                <li><a href="../00_Notice_PJH/sub_member.html">Notice</a></li>
+                <li><a href="../00_Story_KYE/story.html">Story</a></li>
+                <li><a href="../00_Member_HMS/member.html">Member</a></li>
+            </ul>
+            <!-- 검색창 -->
+            <div class="search">
+                <input type="text" placeholder="Search">
+                <button class="sb"><a href="javascript:;"><i class="fa-solid fa-magnifying-glass"></i></a></button>
+            </div>
+            <a href="https://open.kakao.com/o/sXKRcZvg" target="_blank"><i
+                    class="kakaotalk fa-solid fa-comment"></i></a>
+            <a href="javascript:;"><i class="mypage fa-solid fa-user"></i></a>
+        </div><!--.fixnav-->
+
+        <!-- hole -->
+        <div id="pic">
+            <div class="container">
+                <div class="pic"></div>
+            </div>
+        </div><!--#pic-->
+
+        <!-- cont1 -->
+        <div id="cont1">
+            <div class="container">
+                <div class="cont1">
+                    <div class="cont1_tit">
+                        <a href="#">MENU</a>
+                        <p>스쿱스의 다양한 메뉴를 소개합니다.</p>
+                    </div>
+                </div>
+            </div>
+        </div><!--#cont1-->
+
+        <!-- cont2, nav -->
+        <nav id="nav">
+            <div class="container">
+                <ul class="tab-menu">
+                    <li class="active" data-tab="best3">
+                        <img src="./img/best3.png" alt="best3_아이스크림">
+                        <p>BEST3</p>
+                    </li>
+                    <li data-tab="gelato">
+                        <img src="./img/gelato.png" alt="젤라또 아이스크림 이미지">
+                        <p>GELATO</p>
+                    </li>
+                    <li data-tab="ice-cream">
+                        <img src="./img/icecream.png" alt="아이스크림 이미지">
+                        <p>ICE CREAM</p>
+                    </li>
+                    <li data-tab="sorbet">
+                        <img src="./img/sorbet.png" alt="소르베 아이스크림 이미지">
+                        <p>SORBET</p>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- cont3, main -->
+        <main id="main">
+            <div class="container">
+                <div class="main">
+                    <section id="best3" class="tab-content active">
+                        <h2>Best 3</h2>
+                        <h4>스쿱스에서 가장 인기있는 맛</h4>
+                        <div class="ice-cream-content">
+                            <article class="ice-cream-item1 ">
+                                <div class="img_box">
+                                    <img src="./img/best_blue.png" alt="도라에몽 소다 아이스크림 이미지">
+                                </div>
+                                <div class="item-text">
+                                    <p>도라에몽 소다 <small>Doraemon Soda</small></p>
+                                    <em>시원하고 청량한 소다 맛과 부드럽고 상큼한 요거트 맛이 조화를 이룹니다.<br />특히 아이스크림 속에는 톡톡 터지는 라즈베리 맛 팝핑캔디가
+                                        듬뿍 들어있어
+                                        먹는 재미를 더합니다.<br />팝핑캔디가 입안에서 터질 때마다 라즈베리의 상큼한 맛이 퍼지며,<br />기존의 소다와 요거트 맛에 더해 새로운
+                                        식감과 맛을
+                                        경험할 수 있습니다. <br />어린이 뿐만 아니라 도라에몽을 좋아하는 모든 사람이 즐길 수 있으며<br />더운 여름날 시원하게 즐길 수 있는
+                                        완벽한
+                                        아이스크림입니다.</em>
+                                    <table class="table1">
+                                        <tr>
+                                            <td>칼로리(kcal)</td>
+                                            <td>나트륨(mg)</td>
+                                            <td>당류(g)</td>
+                                            <td>포화지방(g)</td>
+                                            <td>단백질(g)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>130</td>
+                                            <td>50</td>
+                                            <td>15</td>
+                                            <td>4</td>
+                                            <td>2</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </article>
+
+                            <article class="ice-cream-item1 ">
+                                <div class="img_box">
+                                    <img src="./img/best_red.png" alt="체리캡처 아이스크림 이미지">
+                                </div>
+                                <div class="item-text">
+                                    <p>체리캡처 <small>Cherry Capture</small></p>
+                                    <em>체리캡처는 여름의 상큼함을 그대로 담아낸 아이스크림입니다.<br />
+                                        레이니어 체리의 풍부한 단맛과 포도의 깔끔한 맛이 조화를 이루어,<br />
+                                        한 입만 먹어도 가득 퍼지는 상큼함과 달콤함을 느낄 수 있습니다.<br />
+                                        스쿱스는 최고의 맛을 위해 신선한 레이니어 체리와 잘 익은 포도만을 사용합니다.<br />
+                                        신선한 과일의 향긋함이 그대로 살아있습니다.<br />
+                                        부드러운 아이스크림 텍스처 속에 작은 체리 조각들이 들어있어 씹는 재미를 더해줍니다.</em>
+                                    <table class="table1">
+                                        <tr>
+                                            <td>칼로리(kcal)</td>
+                                            <td>나트륨(mg)</td>
+                                            <td>당류(g)</td>
+                                            <td>포화지방(g)</td>
+                                            <td>단백질(g)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>140</td>
+                                            <td>55</td>
+                                            <td>16</td>
+                                            <td>4.5</td>
+                                            <td>2</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </article>
+
+                            <article class="ice-cream-item1 ">
+                                <div class="img_box">
+                                    <img src="./img/best_yellow.png" alt="피치슈가 아이스크림 이미지">
+                                </div>
+                                <div class="item-text">
+                                    <p>피치슈가 <small>Peach Sugar</small></p>
+                                    <em>피치슈가는 여름의 달콤함을 가득 담아낸 아이스크림입니다.<br />
+                                        잘 익은 황도 복숭아의 풍부한 과즙과 천연 설탕의 은은한 단맛이 어우러져,<br />
+                                        한 입만 먹어도 입안 가득 퍼지는 달콤함과 상큼함을 느낄 수 있습니다.<br />
+                                        스쿱스는 최고의 맛을 위해 신선한 황도 복숭아와 천연 재료만을 사용합니다.<br />
+                                        신선한 과일의 향긋함과 자연의 달콤함이 그대로 살아있습니다.<br />
+                                        부드러운 아이스크림 텍스처 속에 작은 복숭아 조각들이 들어있어 씹는 재미를 더해줍니다.</em>
+                                    <table class="table1">
+                                        <tr>
+                                            <td>칼로리(kcal)</td>
+                                            <td>나트륨(mg)</td>
+                                            <td>당류(g)</td>
+                                            <td>포화지방(g)</td>
+                                            <td>단백질(g)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>135</td>
+                                            <td>52</td>
+                                            <td>15</td>
+                                            <td>4.2</td>
+                                            <td>2</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </article>
+                        </div>
+                    </section>
+                    <section id="gelato" class="tab-content">
+                        <h2>Gelato</h2>
+                        <h4>젤라또의 부드러운 풍미를 온전히 느껴보세요. <br />한 스푼 한 스푼이 입안에서 녹아내리며, 달콤하고 신선한 맛이 행복을 선사합니다. <br />진정한 즐거움은
+                            천천히 음미하는
+                            순간에 담겨있답니다.</h4>
+                        <article class="ice-cream-item1 ">
+                            <div class="img_box">
+                                <img src="./img/gel1.png" alt="피치슈가 아이스크림 이미지">
+                            </div>
+                            <div class="item-text">
+                                <p>이천 쌀 젤라또 <small>Icheon Rice Gelato</small></p>
+                                <em>이천 쌀 젤라또는 한국의 자랑스러운 농산물인
+                                    이천 쌀에서 영감을 받은 특별한 맛입니다. <br />
+                                    부드럽고 진한 쌀 향이 입안을 가득 채우며,
+                                    부드러운 식감이 입안에서 퍼집니다. <br />
+                                    게다가 쌀알의 씹히는 식감은 마치 한입 먹을 때마다
+                                    쌀밭을 거닐고 있는 듯한 느낌을 줍니다. <br />
+                                    이천 쌀 젤라또는 쌀의 고소함과 젤라또의 부드러움이 어우러져, <br />
+                                    입안에서 펼치는 매 순간이 특별한 경험으로 남을 것입니다.</em>
+                                <table class="table1">
+                                    <tr>
+                                        <td>칼로리(kcal)</td>
+                                        <td>나트륨(mg)</td>
+                                        <td>당류(g)</td>
+                                        <td>포화지방(g)</td>
+                                        <td>단백질(g)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>140</td>
+                                        <td>5</td>
+                                        <td>33</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </article>
+                        <article class="ice-cream-item1 ">
+                            <div class="img_box">
+                                <img src="./img/gel2.png" alt="피치슈가 아이스크림 이미지">
+                            </div>
+                            <div class="item-text">
+                                <p>초코 젤라또 <small>Choco Gelato</small></p>
+                                <em>초코 젤라또는 진한 초콜릿의 풍미와 <br />
+                                    부드러운 질감으로 달콤한 감동을 선사합니다. <br />
+                                    입 안에서 쫄깃하게 녹아내리는 초콜릿의 맛은 <br />
+                                    마치 달콤한 꿈을 꾸고 있는 듯한 기분을 만들어냅니다.<br />
+                                    초코 젤라또는 달콤함과 진한 풍미가 어우러져, <br />
+                                    한 입 먹을 때마다 달콤한 환상을 느낄 수 있습니다.</em>
+                                <table class="table1">
+                                    <tr>
+                                        <td>칼로리(kcal)</td>
+                                        <td>나트륨(mg)</td>
+                                        <td>당류(g)</td>
+                                        <td>포화지방(g)</td>
+                                        <td>단백질(g)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>120</td>
+                                        <td>10</td>
+                                        <td>25</td>
+                                        <td>0</td>
+                                        <td>2</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </article>
+                        <article class="ice-cream-item1 ">
+                            <div class="img_box">
+                                <img src="./img/gel3.png" alt="피치슈가 아이스크림 이미지">
+                            </div>
+                            <div class="item-text">
+                                <p>베리딸기 젤라또 <small>VeryStrawberry Gelato</small></p>
+                                <em>딸기 젤라또는 상큼하고 달콤한 딸기의 향과 맛으로 <br />
+                                    상쾌한 여름 기분을 전해줍니다. <br />
+                                    입 안에서 살짝 씹히는 딸기 조각은 <br />
+                                    마치 싱그러운 정원을 거닐고 있는 듯한 기분을 만들어냅니다. <br />
+                                    딸기 젤라또는 상큼함과 달콤함이 조화를 이루어, <br />
+                                    한 입 먹을 때마다 신선한 바람이 불어오는 것 같은 시원한 느낌을 줍니다.</em>
+                                <table class="table1">
+                                    <tr>
+                                        <td>칼로리(kcal)</td>
+                                        <td>나트륨(mg)</td>
+                                        <td>당류(g)</td>
+                                        <td>포화지방(g)</td>
+                                        <td>단백질(g)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>120</td>
+                                        <td>30</td>
+                                        <td>14</td>
+                                        <td>2</td>
+                                        <td>2</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </article>
+                        <article class="ice-cream-item1 ">
+                            <div class="img_box">
+                                <img src="./img/gel4.png" alt="피치슈가 아이스크림 이미지">
+                            </div>
+                            <div class="item-text">
+                                <p>블루베리 젤라또 <small>Blueberry Gelato</small></p>
+                                <em>블루베리 젤라또는 진한 블루베리의 풍미와 <br />
+                                    신선한 맛으로 입안을 가득 채웁니다. <br />
+                                    입 안에서 씹히는 블루베리의 향기는 <br />
+                                    마치 시원한 숲속을 거닐고 있는 듯한 느낌을 줍니다. <br />
+                                    블루베리 젤라또는 고소함과 상큼함이 어우러져, <br />
+                                    한 입 먹을 때마다 새콤달콤한 여행을 떠나는 기분을 느낄 수 있습니다.</em>
+                                <table class="table1">
+                                    <tr>
+                                        <td>칼로리(kcal)</td>
+                                        <td>나트륨(mg)</td>
+                                        <td>당류(g)</td>
+                                        <td>포화지방(g)</td>
+                                        <td>단백질(g)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>125</td>
+                                        <td>28</td>
+                                        <td>15</td>
+                                        <td>2.5</td>
+                                        <td>2</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </article>
+                        <article class="ice-cream-item1 ">
+                            <div class="img_box">
+                                <img src="./img/gel5.png" alt="피치슈가 아이스크림 이미지">
+                            </div>
+                            <div class="item-text">
+                                <p>로투스 젤라또 <small>Lotus Gelato</small></p>
+                                <em>로투스 젤라또는 벨기에의 유명한 로투스 비스코프(biscoff) 쿠키를 기반으로 만든 젤라또입니다. <br /> 이 젤라또는 달콤하고 캐러멜화된 설탕의
+                                    풍미가 강하게
+                                    느껴지며, 약간의 시나몬 향이 은은하게 퍼집니다. <br />로투스 쿠키 특유의 바삭함과 부드러운 질감이 조화를 이루어 풍부한 맛을 제공합니다.
+                                    <br />로투스
+                                    젤라또는 크리미하고 진한 질감이 특징으로, <br />입안에서 부드럽게 녹아내리며 고급스러운 디저트의 느낌을 줍니다. <br />
+                                    커피나 카푸치노와 함께 먹으면 커피의 쌉쌀한 맛과 로투스 젤라또의 달콤함이 잘 어울립니다.</em>
+                                <table class="table1">
+                                    <tr>
+                                        <td>칼로리(kcal)</td>
+                                        <td>나트륨(mg)</td>
+                                        <td>당류(g)</td>
+                                        <td>포화지방(g)</td>
+                                        <td>단백질(g)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>140</td>
+                                        <td>35</td>
+                                        <td>16</td>
+                                        <td>3</td>
+                                        <td>2.5</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </article>
+                        <article class="ice-cream-item1 ">
+                            <div class="img_box">
+                                <img src="./img/gel6.png" alt="피치슈가 아이스크림 이미지">
+                            </div>
+                            <div class="item-text">
+                                <p>쿠키 앤 크림 젤라또 <small>Cookies and Cream Gelato</small></p>
+                                <em>쿠키 앤 크림 젤라또는 바닐라 베이스의 젤라또에 크런치한 초콜릿 쿠키 조각이 듬뿍 들어간 맛입니다. <br /> 바닐라 젤라또의 부드럽고 크리미한 맛과
+                                    함께 초콜릿
+                                    쿠키의 달콤하고 바삭한 식감이 조화를 이루어,<br /> 풍부한 맛과 식감을 동시에 즐길 수 있습니다. <br />쿠키의 달콤한 맛과 젤라또의 부드러운
+                                    맛이 어우러져
+                                    남녀노소 누구나 좋아하는 클래식한 맛입니다.<br />
+                                    초콜릿 칩이나 쿠키 크럼블을 뿌려서 먹으면 더욱 풍성한 식감을 즐길 수 있습니다. <br /> 특히, 바닐라 밀크셰이크와 함께해보세요! 색다른 맛을
+                                    즐길 수
+                                    있습니다.</em>
+                                <table class="table1">
+                                    <tr>
+                                        <td>칼로리(kcal)</td>
+                                        <td>나트륨(mg)</td>
+                                        <td>당류(g)</td>
+                                        <td>포화지방(g)</td>
+                                        <td>단백질(g)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>150</td>
+                                        <td>40</td>
+                                        <td>18</td>
+                                        <td>4</td>
+                                        <td>3</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </article>
+                        <article class="ice-cream-item1 ">
+                            <div class="img_box">
+                                <img src="./img/gel7.png" alt="피치슈가 아이스크림 이미지">
+                            </div>
+                            <div class="item-text">
+                                <p>피스타치오 젤라또 <small>Pistachio Gelato</small></p>
+                                <em>신선한 피스타치오의 고소한 맛이 젤라또의 부드러운 질감과 어우러져 고급스러운 맛을 자아냅니다. <br /> 인공적인 맛이 아닌 자연스러운 피스타치오의
+                                    맛이 느껴져
+                                    더욱 풍부한 맛을 제공합니다. <br /> 너무 차갑지 않게, 약간 녹은 상태에서 먹는 것이 좋습니다. <br />너무 차가우면 피스타치오의 고소한
+                                    맛을 제대로
+                                    느끼기 어렵습니다. <br />산뜻한 과일, 특히 딸기나 라즈베리와 함께 즐겨보세요! 피스타치오의 고소한 맛이 돋보입니다.</em>
+                                <table class="table1">
+                                    <tr>
+                                        <td>칼로리(kcal)</td>
+                                        <td>나트륨(mg)</td>
+                                        <td>당류(g)</td>
+                                        <td>포화지방(g)</td>
+                                        <td>단백질(g)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>160</td>
+                                        <td>25</td>
+                                        <td>12</td>
+                                        <td>5</td>
+                                        <td>4</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </article>
+                        <article class="ice-cream-item1 ">
+                            <div class="img_box">
+                                <img src="./img/gel8.png" alt="피치슈가 아이스크림 이미지">
+                            </div>
+                            <div class="item-text">
+                                <p>녹차 젤라또 <small>Green Tea Gelato</small></p>
+                                <em>제주도의 풍부한 자연에서 온 녹차를 활용하여 만든 젤라또입니다. <br />
+                                    입안에서 퍼지는 제주도 녹차의 진한 향과 풍부한 맛은<br />
+                                    마치 제주도의 아름다운 자연 풍경을 떠올리게 합니다.<br />
+                                    녹차의 향기와 맛이 어우러진 이 특별한 젤라또는<br />
+                                    상쾌하면서도 고소한 맛을 선사합니다.<br />달콤한 팥과 녹차는 전통적인 조합으로, 서로의 맛을 보완해줍니다. 팥 또는 견과류와 함께 즐겨보세요!
+                                </em>
+                                <table class="table1">
+                                    <tr>
+                                        <td>칼로리(kcal)</td>
+                                        <td>나트륨(mg)</td>
+                                        <td>당류(g)</td>
+                                        <td>포화지방(g)</td>
+                                        <td>단백질(g)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>130</td>
+                                        <td>20</td>
+                                        <td>11</td>
+                                        <td>2.5</td>
+                                        <td>3</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </article>
+                        <!-- 더 많은 Gelato 항목 추가 -->
+                    </section>
+                    <section id="ice-cream" class="tab-content">
+                        <h2>Ice Cream</h2>
+                        <h4>아이스크림의 차가운 달콤함을 느껴보세요. <br />한 입 베어물면 입안 가득 퍼지는 풍부한 맛이 당신을 미소 짓게 합니다. <br />천천히 녹아내리는 그 순간의
+                            행복을 즐기며,
+                            아이스크림의 매력을 온전히 만끽해보세요.</h4>
+                        <article class="ice-cream-item1 ">
+                            <div class="img_box">
+                                <img src="./img/ice1.png" alt="피치슈가 아이스크림 이미지">
+                            </div>
+                            <div class="item-text">
+                                <p>골든 바닐라 <small>Golden Vanilla </small></p>
+                                <em>바닐라는 단순함 속에서 찾는 진정한 우아함이란 무엇인지 보여줍니다. <br />부드럽고 크리미한 바닐라 아이스크림은<br />누구나 한 입 먹으면 그
+                                    고소하고 달콤한
+                                    매력에 빠지게 됩니다. <br />바닐라는 그 자체로도 완벽하지만, <br />어떤 디저트와도 완벽하게 어울리는 만능 플레이버죠.
+                                    <br />아이스크림의 클래식한
+                                    기본 중의 기본, 바로 바닐라입니다.</em>
+                                <table class="table1">
+                                    <tr>
+                                        <td>칼로리(kcal)</td>
+                                        <td>나트륨(mg)</td>
+                                        <td>당류(g)</td>
+                                        <td>포화지방(g)</td>
+                                        <td>단백질(g)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>207</td>
+                                        <td>80</td>
+                                        <td>21</td>
+                                        <td>5.7</td>
+                                        <td>3.5</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </article>
+                        <article class="ice-cream-item1 ">
+                            <div class="img_box">
+                                <img src="./img/ice2.png" alt="피치슈가 아이스크림 이미지">
+                            </div>
+                            <div class="item-text">
+                                <p>베리 문 <small>Berry Moon</small></p>
+                                <em>한여름의 달콤한 딸기밭을 떠올리게 하는 딸기 아이스크림.<br />
+                                    상큼하고 진한 딸기 맛이 입안 가득 퍼지며, <br />
+                                    작은 딸기 조각들이 씹히는 재미도 선사합니다.<br />
+                                    먹을 때마다 한여름의 해변가에서 시원한 바람을 맞으며<br />
+                                    딸기를 한 입 베어무는 기분을 느낄 수 있습니다. <br />
+                                    딸기 아이스크림은 어린 시절의 추억을 떠올리게 하는, <br />
+                                    언제나 기분 좋은 선택입니다.</em>
+                                <table class="table1">
+                                    <tr>
+                                        <td>칼로리(kcal)</td>
+                                        <td>나트륨(mg)</td>
+                                        <td>당류(g)</td>
+                                        <td>포화지방(g)</td>
+                                        <td>단백질(g)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>192</td>
+                                        <td>70</td>
+                                        <td>20</td>
+                                        <td>4.8</td>
+                                        <td>3.2</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </article>
+                        <article class="ice-cream-item1 ">
+                            <div class="img_box">
+                                <img src="./img/ice3.png" alt="피치슈가 아이스크림 이미지">
+                            </div>
+                            <div class="item-text">
+                                <p>초코 스노우 <small>Choco Snow</small></p>
+                                <em>초콜릿 아이스크림은 그 풍부하고 진한 맛으로<br />
+                                    모든 초콜릿 애호가들의 마음을 사로잡습니다.<br />
+                                    깊고 진한 초콜릿의 풍미가 입안 가득 퍼지며,<br />
+                                    부드럽고 크리미한 식감이 더해져 완벽한 달콤함을 선사합니다.<br />
+                                    초콜릿의 매력을 한껏 느끼고 싶을 때 한 입 베어물면<br />
+                                    스트레스가 사라지는 기적을 경험할 수 있습니다.<br />
+                                    초콜릿 아이스크림은 언제나 옳습니다!</em>
+                                <table class="table1">
+                                    <tr>
+                                        <td>칼로리(kcal)</td>
+                                        <td>나트륨(mg)</td>
+                                        <td>당류(g)</td>
+                                        <td>포화지방(g)</td>
+                                        <td>단백질(g)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>216</td>
+                                        <td>85</td>
+                                        <td>23</td>
+                                        <td>6.2</td>
+                                        <td>3.8</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </article>
+                        <article class="ice-cream-item1 ">
+                            <div class="img_box">
+                                <img src="./img/ice4.png" alt="피치슈가 아이스크림 이미지">
+                            </div>
+                            <div class="item-text">
+                                <p>망고맹고 <small>Mango Maenggo</small></p>
+                                <em>열대 과일의 여왕, 망고!<br />
+                                    이 아이스크림은 망고의 달콤하고 상큼한 맛을 그대로 담아냈습니다.<br />
+                                    한 입 먹으면 마치 열대 휴양지로 떠난 듯한 기분을 느낄 수 있죠.<br />
+                                    망고 특유의 진한 향과 부드러운 식감이 어우러져,<br />
+                                    더운 여름날에도 시원하게 즐길 수 있는 최고의 선택입니다.<br />
+                                    망고 아이스크림은 여러분의 입안을 축제의 장으로 만들어 줄 것입니다.</em>
+                                <table class="table1">
+                                    <tr>
+                                        <td>칼로리(kcal)</td>
+                                        <td>나트륨(mg)</td>
+                                        <td>당류(g)</td>
+                                        <td>포화지방(g)</td>
+                                        <td>단백질(g)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>160</td>
+                                        <td>50</td>
+                                        <td>18</td>
+                                        <td>3.2</td>
+                                        <td>2.5</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </article>
+                        <article class="ice-cream-item1 ">
+                            <div class="img_box">
+                                <img src="./img/ice5.png" alt="피치슈가 아이스크림 이미지">
+                            </div>
+                            <div class="item-text">
+                                <p>팝핑그린 <small>Popping Green</small></p>
+                                <em>팝핑캔디 아이스크림은 그 이름처럼 톡톡 튀는 재미를 선사합니다.<br />
+                                    한 입 베어물면 입안에서 캔디가 팡팡 터지며,<br />
+                                    재미와 달콤함을 동시에 느낄 수 있죠.<br />
+                                    어린 시절의 추억을 떠올리게 하는 이 아이스크림은<br />
+                                    언제나 즐겁고 기분 좋은 경험을 제공합니다.<br />
+                                    팝핑캔디 아이스크림과 함께라면<br />
+                                    아이스크림을 먹는 순간이 언제나 파티 타임!</em>
+                                <table class="table1">
+                                    <tr>
+                                        <td>칼로리(kcal)</td>
+                                        <td>나트륨(mg)</td>
+                                        <td>당류(g)</td>
+                                        <td>포화지방(g)</td>
+                                        <td>단백질(g)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>200</td>
+                                        <td>75</td>
+                                        <td>22</td>
+                                        <td>5.5</td>
+                                        <td>3.3</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </article>
+                        <article class="ice-cream-item1 ">
+                            <div class="img_box">
+                                <img src="./img/ice6.png" alt="피치슈가 아이스크림 이미지">
+                            </div>
+                            <div class="item-text">
+                                <p>캔디 클라우드 <small>Candy Cloud</small></p>
+                                <em>솜사탕을 그대로 아이스크림으로 만들면 어떤 맛일까요?<br />
+                                    바로 캔디 클라우드 아이스크림입니다.<br />
+                                    부드럽고 달콤한 솜사탕 맛이 입안 가득 퍼지며,<br />
+                                    먹을 때마다 어린 시절 놀이공원의 기억이 떠오릅니다.<br />
+                                    구름처럼 가벼운 식감과 달콤한 맛이 어우러져,<br />
+                                    한 입 먹으면 마치 하늘을 나는 듯한 기분을 느낄 수 있어요.<br />
+                                    캔디 클라우드 아이스크림은 모든 꿈과 동심을 담은 달콤한 구름입니다.</em>
+                                <table class="table1">
+                                    <tr>
+                                        <td>칼로리(kcal)</td>
+                                        <td>나트륨(mg)</td>
+                                        <td>당류(g)</td>
+                                        <td>포화지방(g)</td>
+                                        <td>단백질(g)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>210</td>
+                                        <td>80</td>
+                                        <td>24</td>
+                                        <td>5.9</td>
+                                        <td>3.4</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </article>
+                        <article class="ice-cream-item1 ">
+                            <div class="img_box">
+                                <img src="./img/ice7.png" alt="피치슈가 아이스크림 이미지">
+                            </div>
+                            <div class="item-text">
+                                <p>민트초코 <small>Mint Choco</small></p>
+                                <em>상쾌한 민트 향과 진한 초콜릿 칩의 조합으로 매니아층을 형성한 맛입니다.<br />
+                                    민트의 시원함이 입안을 깨끗하게 해주면서도,<br />
+                                    초콜릿 칩이 씹히는 식감과 달콤함이 더해져 <br />
+                                    완벽한 밸런스를 자랑합니다.<br />
+                                    민트초코를 좋아하는 사람들은 그 독특한 조합에 중독되어버리죠.<br />
+                                    한 입 베어물면 청량한 민트 향이 퍼지며,<br />
+                                    초콜릿의 풍미가 이어져 완벽한 맛의 조화를 느낄 수 있습니다.</em>
+                                <table class="table1">
+                                    <tr>
+                                        <td>칼로리(kcal)</td>
+                                        <td>나트륨(mg)</td>
+                                        <td>당류(g)</td>
+                                        <td>포화지방(g)</td>
+                                        <td>단백질(g)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>220</td>
+                                        <td>90</td>
+                                        <td>22</td>
+                                        <td>6</td>
+                                        <td>3.6</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </article>
+                        <article class="ice-cream-item1 ">
+                            <div class="img_box">
+                                <img src="./img/ice8.png" alt="피치슈가 아이스크림 이미지">
+                            </div>
+                            <div class="item-text">
+                                <p>쿠앤크 드림 <small>Cookies and Dream</small></p>
+                                <em>쿠앤크 아이스크림은 바닐라 아이스크림 베이스에<br />
+                                    바삭바삭한 초콜릿 쿠키 조각이 듬뿍 들어가 있습니다.<br />
+                                    이 맛은 마치 크림과 쿠키가 춤을 추는 듯한 완벽한 조화를 자랑하죠.<br />
+                                    바닐라의 부드러움과 쿠키의 바삭함이 어우러져,<br />
+                                    한 입 베어물 때마다 식감의 재미를 느낄 수 있습니다.<br />
+                                    쿠앤크 아이스크림은 모든 세대가 사랑하는 클래식한 맛으로,<br />
+                                    언제나 변함없는 인기를 누리고 있습니다.
+                                </em>
+                                <table class="table1">
+                                    <tr>
+                                        <td>칼로리(kcal)</td>
+                                        <td>나트륨(mg)</td>
+                                        <td>당류(g)</td>
+                                        <td>포화지방(g)</td>
+                                        <td>단백질(g)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>230</td>
+                                        <td>95</td>
+                                        <td>21</td>
+                                        <td>7</td>
+                                        <td>4</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </article>
+                        <!-- 더 많은 Ice Cream 항목 추가 -->
+                    </section>
+                    <section id="sorbet" class="tab-content">
+                        <h2>Sorbet</h2>
+                        <h4>소르베의 맑고 산뜻한 맛을 느껴보세요. <br />입안에 퍼지는 과일의 생생한 향과 시원함이 하루의 피로를 녹여줍니다. <br />한 입 한 입, 자연의 신선함을
+                            천천히 음미하며
+                            소르베의 특별한 순간을 즐겨보세요.</h4>
+                        <article class="ice-cream-item1 ">
+                            <div class="img_box">
+                                <img src="./img/sor1.png" alt="피치슈가 아이스크림 이미지">
+                            </div>
+                            <div class="item-text">
+                                <p>망고 소르베 <small>Mango Sorbet</small></p>
+                                <em>망고 소르베는 그 특유의 부드러운 질감과 달콤한 맛으로 인해<br />
+                                    소나기처럼 쏟아지는 여름의 즐거움을 담고 있습니다.<br />
+                                    입안에 한 입 넣으면, 망고의 달콤함이 입안을 가득 채우며,<br />
+                                    마치 열대 해변가에서 태양 아래에서 즐기는<br />
+                                    달콤한 여름 휴가의 기분을 떠올리게 합니다.<br />
+                                    부드럽고 고소한 질감은 마치 부드러운 바람이<br />
+                                    바다를 향해 속삭이는 듯한 상쾌함을 전달합니다.</em>
+                                <table class="table1">
+                                    <tr>
+                                        <td>칼로리(kcal)</td>
+                                        <td>나트륨(mg)</td>
+                                        <td>당류(g)</td>
+                                        <td>포화지방(g)</td>
+                                        <td>단백질(g)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>120</td>
+                                        <td>5</td>
+                                        <td>25</td>
+                                        <td>0</td>
+                                        <td>0.5</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </article>
+                        <article class="ice-cream-item1 ">
+                            <div class="img_box">
+                                <img src="./img/sor2.png" alt="피치슈가 아이스크림 이미지">
+                            </div>
+                            <div class="item-text">
+                                <p>피치 소르베 <small>Peach Sorbet</small></p>
+                                <em>피치 소르베는 그 부드러운 질감과 달콤한 향기로<br />
+                                    마치 과일원에서 피치를 따는 기분을 떠올리게 합니다.<br />
+                                    입안에 넣으면, 피치의 달콤함이 입안을 가득 채우며,<br />
+                                    마치 새콤달콤한 과일을 먹는 기쁨을 느끼게 해줍니다.<br />
+                                    피치의 달콤한 향기는 마치 여름의 해질녘,<br />
+                                    바람에 불려오는 향기와도 같아서<br />
+                                    상쾌한 여름의 느낌을 전달합니다.</em>
+                                <table class="table1">
+                                    <tr>
+                                        <td>칼로리(kcal)</td>
+                                        <td>나트륨(mg)</td>
+                                        <td>당류(g)</td>
+                                        <td>포화지방(g)</td>
+                                        <td>단백질(g)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>110</td>
+                                        <td>5</td>
+                                        <td>22</td>
+                                        <td>0</td>
+                                        <td>0.5</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </article>
+                        <article class="ice-cream-item1 ">
+                            <div class="img_box">
+                                <img src="./img/sor3.png" alt="피치슈가 아이스크림 이미지">
+                            </div>
+                            <div class="item-text">
+                                <p>파인애플 소르베 <small>Pineapple Sorbet</small></p>
+                                <em>파인애플 소르베는 상쾌하고 달콤한 맛으로<br />
+                                    마치 열대의 바닷가를 걷는 것 같은 기분을 불러일으킵니다.<br />
+                                    입안에 한 입 넣으면, 파인애플의 달콤함과 상큼함이 입안을 가득 채우며,<br />
+                                    마치 파도가 부딪치는 소리를 듣는 것 같은 상쾌함을 느끼게 해줍니다.<br />
+                                    과일의 향기와 신선한 맛은 마치 해변가에서 즐기는<br />
+                                    시원한 바람을 맞으며 여름을 즐기는 것 같은 느낌을 줍니다.</em>
+                                <table class="table1">
+                                    <tr>
+                                        <td>칼로리(kcal)</td>
+                                        <td>나트륨(mg)</td>
+                                        <td>당류(g)</td>
+                                        <td>포화지방(g)</td>
+                                        <td>단백질(g)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>100</td>
+                                        <td>0</td>
+                                        <td>20</td>
+                                        <td>0</td>
+                                        <td>0.5</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </article>
+                        <article class="ice-cream-item1 ">
+                            <div class="img_box">
+                                <img src="./img/sor4.png" alt="피치슈가 아이스크림 이미지">
+                            </div>
+                            <div class="item-text">
+                                <p>라즈베리 소르베 <small>Raspberry Sorbet</small></p>
+                                <em>라즈베리 소르베는 상큼하고 달콤한 맛으로<br />
+                                    마치 산딸기를 따는 것 같은 기분을 불러일으킵니다.<br />
+                                    입안에 넣으면, 라즈베리의 달콤한 맛과 산뜻한 신선함이<br />
+                                    입안을 가득 채우며,<br />
+                                    마치 청량한 샘물을 마시는 것 같은 상쾌함을 느끼게 해줍니다.<br />
+                                    상큼한 맛과 함께 조금의 새콤함이 더해져,<br />
+                                    마치 산속을 거닐며 신선한 공기를 마시는 듯한 느낌을 전달합니다.</em>
+                                <table class="table1">
+                                    <tr>
+                                        <td>칼로리(kcal)</td>
+                                        <td>나트륨(mg)</td>
+                                        <td>당류(g)</td>
+                                        <td>포화지방(g)</td>
+                                        <td>단백질(g)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>110</td>
+                                        <td>0</td>
+                                        <td>23</td>
+                                        <td>0</td>
+                                        <td>0.5</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </article>
+                        <article class="ice-cream-item1 ">
+                            <div class="img_box">
+                                <img src="./img/sor5.png" alt="피치슈가 아이스크림 이미지">
+                            </div>
+                            <div class="item-text">
+                                <p>애플 소르베 <small>Apple Sorbet</small></p>
+                                <em>애플 소르베는 신선하고 달콤한 맛으로<br />
+                                    마치 신선한 공기를 마시는 것 같은 기분을 불러일으킵니다.<br />
+                                    입안에 넣으면, 애플의 상쾌한 맛이 입안을 가득 채우며,<br />
+                                    마치 과수원을 거닐며<br />
+                                    신선한 과일을 맛보는 것 같은 상쾌함을 느끼게 해줍니다.<br />
+                                    애플의 상큼한 향기는 마치 가을의 동화 속에서<br />
+                                    신선한 공기를 마시는 것 같은 느낌을 전달합니다.</em>
+                                <table class="table1">
+                                    <tr>
+                                        <td>칼로리(kcal)</td>
+                                        <td>나트륨(mg)</td>
+                                        <td>당류(g)</td>
+                                        <td>포화지방(g)</td>
+                                        <td>단백질(g)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>90</td>
+                                        <td>0</td>
+                                        <td>18</td>
+                                        <td>0</td>
+                                        <td>0.5</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </article>
+                        <article class="ice-cream-item1 ">
+                            <div class="img_box">
+                                <img src="./img/sor6.png" alt="피치슈가 아이스크림 이미지">
+                            </div>
+                            <div class="item-text">
+                                <p>오렌지 소르베 <small>Orange Sorbet</small></p>
+                                <em>오렌지 소르베는 신선하고 달콤한 맛으로
+                                    마치 오렌지농장을 거닐며<br />
+                                    신선한 과일을 맛보는 것 같은 기분을 불러일으킵니다.<br />
+                                    입안에 넣으면, 오렌지의 달콤한 맛이 입안을 가득 채우며,<br />
+                                    마치 오렌지나무 그늘 아래에서 시원한 바람을 맞으며<br />
+                                    휴식을 취하는 것 같은 기분을 느끼게 해줍니다.<br />
+                                    오렌지의 상큼한 향기는
+                                    마치 해안가에서 신선한 바다공기를 마시는 듯한 느낌을 전달합니다.</em>
+                                <table class="table1">
+                                    <tr>
+                                        <td>칼로리(kcal)</td>
+                                        <td>나트륨(mg)</td>
+                                        <td>당류(g)</td>
+                                        <td>포화지방(g)</td>
+                                        <td>단백질(g)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>95</td>
+                                        <td>0</td>
+                                        <td>19</td>
+                                        <td>0</td>
+                                        <td>0.5</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </article>
+                        <article class="ice-cream-item1 ">
+                            <div class="img_box">
+                                <img src="./img/sor7.png" alt="피치슈가 아이스크림 이미지">
+                            </div>
+                            <div class="item-text">
+                                <p>그레이프 소르베 <small>Grape Sorbet</small></p>
+                                <em>그레이프 소르베는 그 특유의 상쾌하고 달콤한 맛으로<br />
+                                    마치 하늘을 바라보며 별을 보는 듯한 신비로운 경험을 떠올리게 합니다.<br />
+                                    입안에 넣으면, 그레이프의 상큼하고 달콤한 맛이 입안을 가득 채우며,<br />
+                                    마치 풍성한 포도원을 거닐며
+                                    신선한 과일을 맛보는 것 같은 상쾌함을 느끼게 해줍니다.<br />
+                                    그레이프 소르베는 고유한 맛과 아로마로 인해<br />
+                                    마치 달콤한 꿈을 꾸는 것 같은 기분을 줍니다.</em>
+                                <table class="table1">
+                                    <tr>
+                                        <td>칼로리(kcal)</td>
+                                        <td>나트륨(mg)</td>
+                                        <td>당류(g)</td>
+                                        <td>포화지방(g)</td>
+                                        <td>단백질(g)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>105</td>
+                                        <td>0</td>
+                                        <td>21</td>
+                                        <td>0</td>
+                                        <td>0.5</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </article>
+                        <article class="ice-cream-item1 ">
+                            <div class="img_box">
+                                <img src="./img/sor8.png" alt="피치슈가 아이스크림 이미지">
+                            </div>
+                            <div class="item-text">
+                                <p>패션후르츠 소르베 <small>Passion fruit Sorbet</small></p>
+                                <em>패션후르츠 소르베는 화려하고 독특한 맛으로<br />
+                                    마치 특별한 이벤트에 참석하는 것 같은 기분을 불러일으킵니다.<br />
+                                    입안에 넣으면, 패션후르츠의 특유한 맛과 아로마가 입안을 가득 채우며,<br />
+                                    화려한 무대 위에서 춤추는 듯한 화려함을 느끼게 해줍니다.<br />
+                                    패션후르츠의 화려한 향기는<br />
+                                    마치 눈부신 조명 아래에서 패션쇼를 관람하는 것 같은 기분을 전달합니다.
+                                </em>
+                                <table class="table1">
+                                    <tr>
+                                        <td>칼로리(kcal)</td>
+                                        <td>나트륨(mg)</td>
+                                        <td>당류(g)</td>
+                                        <td>포화지방(g)</td>
+                                        <td>단백질(g)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>115</td>
+                                        <td>5</td>
+                                        <td>24</td>
+                                        <td>0</td>
+                                        <td>0.5</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </article>
+                        <!-- 더 많은 Sorbet 항목 추가 -->
+                    </section>
+                </div><!--.main-->
+            </div><!--.container-->
+        </main><!--#main-->
+
+        <!-- footer -->
+        <div id="footer" class="scr1">
+            <div class="container">
+                <div class="footer">
+                    <div class="f_text clearfix">
+                        <ul>
+                            <li><a href="javascript:;">정보</a>
+                                <ul>
+                                    <li>사업자 등록번호 : 777-77-7777</li>
+                                    <li>서울특별시 강서구 화곡로149 3층~5층
+                                        <br>(화곡동.심당빌딩)
+                                    </li>
+                                    <li>Scoops0318@gmali.com</li>
+                                    <li>김도경, 공영은, 박진형, 허민서</li>
+                                </ul>
+                            </li>
+                            <li><a href="javascript:;">고객센터</a>
+                                <ul>
+                                    <li>070-1234-5678</li>
+                                    <li>평일: 09:00 ~ 18:00</li>
+                                    <li>주말: 12:00 ~ 14:00</li>
+                                    <li>공휴일은 고객센터를 운영하지 않습니다.</li>
+                                </ul>
+                            </li>
+                            <li><a href="javascript:;">STORE</a>
+                                <ul>
+                                    <li><a href="javascript">매장찾기</a></li>
+                                    <li><a href="javascript">배달주문</a></li>
+                                    <li><a href="javascript">단체주문</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="javascript:;">SNS</a>
+                                <ul>
+                                    <li><a href="javascript">YouTube</a></li>
+                                    <li><a href="javascript">Instagram</a></li>
+                                    <li><a href="javascript">KakaoTalk</a></li>
+                                    <li><a href="javascript">Blog</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="f_copy">
+                        <a href="javascript:;">개인정보 보호정책</a>
+                        <a href="javascript:;"> | </a>
+                        <a href="javascript:;">서비스 이용약관</a>
+                        <a href="javascript:;"> | </a>
+                        <a href="javascript:;">쿠키 정책</a>
+                        <a href="javascript:;"> | </a>
+                        <a href="javascript:;">면책 조항</a>
+                        <a href="javascript:;"> | </a>
+                        <a href="javascript:;">저작권 정보</a>
+                        <a href="javascript:;"> | </a>
+                        <a href="javascript:;">접근성 설명서</a>
+                        <a href="javascript:;"> | </a>
+                        <a href="javascript:;">GDPR 준수</a>
+                        <a href="javascript:;"> | </a>
+                        <a href="javascript:;">CCPA 준수</a>
+                        <a href="javascript:;"> | </a>
+                        <a href="javascript:;">사용자 동의</a>
+                        <a href="javascript:;"> | </a>
+                        <a href="javascript:;">최종 사용자 사용권 계약</a>
+                        <a href="javascript:;"> | </a>
+                        <a href="javascript:;">환불 정책</a>
+                        <span>© 2024 Scoops. All rights reserved.</span>
+                    </div>
+                    <div class="f_logo">
+                        <ul class="first">
+                            <li><a href="javascript:;">채용문의</a></li>
+                            <li><a href="javascript:;">ㅣ</a></li>
+                            <li><a href="javascript:;">점포개설문의</a></li>
+                        </ul>
+                        <img src="./img/f_logo.png" alt="푸터로고이미지" class="second">
+                        <div class="family">
+                            <select onchange="window.open(value,'_blank')">
+                                <option value="#" selected="selected">family site</option>
+                                <option value="http://daiiny.dothome.co.kr/port1/">Young Flower_공영은</option>
+                                <option value="http://ddkk78.dothome.co.kr/port1/">돈벌자_박진형</option>
+                                <option value="http://mmzz6.dothome.co.kr/port1/">지비랑_허민서</option>
+                                <option value="http://mieum0915.dothome.co.kr/port1/">GoToMoment_김도경</option>
+                            </select>
+                        </div>
+                    </div>
+                </div><!-- //.footer -->
+            </div><!-- //.container -->
+        </div><!-- //#footer -->
+    </div>
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+    <script>
+
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                $('.tab-content .ice-cream-item1').removeClass('show');
+
+                $('.tab-content.active .ice-cream-item1').each(function () {
+                    if (isElementInViewport($(this))) {
+                        $(this).addClass('show');
+                    }
+                });
+            });
+
+            $('.tab-menu li:first').click();
+        });
+
+        function isElementInViewport(el) {
+            var rect = el[0].getBoundingClientRect();
+            return (
+                rect.top >= 0 &&
+                rect.left >= 0 &&
+                rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+                rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+            );
+        }
+
+        // 플로팅 메뉴, 햄버거메뉴
+        const Nav = $(".nav_item>ul>li")
+        const cont = $(".scr1")
+
+        Nav.click(function (e) {
+            e.preventDefault();
+            let target = $(this);
+            let index = target.index();
+            let section = cont.eq(index);
+            let offset = section.offset().top;
+            $("html,body").animate({ scrollTop: offset }, 1000);
+        });
+        $(window).scroll(function () {
+            let wScroll = $(this).scrollTop();
+            console.log(wScroll)
+
+            // console.log(wScroll)
+            if (wScroll >= cont.eq(0).offset().top) {
+            }
+            if (wScroll >= cont.eq(1).offset().top) {
+            }
+        });
+
+        // 탭버튼
+        document.addEventListener("DOMContentLoaded", function () {
+            const tabs = document.querySelectorAll(".tab-menu li");
+            const contents = document.querySelectorAll(".tab-content");
+
+            tabs.forEach(tab => {
+                tab.addEventListener("click", function () {
+                    tabs.forEach(item => item.classList.remove("active"));
+                    contents.forEach(content => content.classList.remove("active"));
+
+                    this.classList.add("active");
+                    document.getElementById(this.dataset.tab).classList.add("active");
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
